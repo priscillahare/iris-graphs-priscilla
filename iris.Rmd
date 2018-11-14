@@ -13,3 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
+```{r}
+petal_graph <- ggplot(iris, aes( x = Petal.Length, y = Petal.Width )) +
+  geom_point()
+petal_graph
+
+
+```
+
